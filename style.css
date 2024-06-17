@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu',sans-serif;}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    
+}
+
+.topleft{
+     width: 50%;
+     padding: 12px 0;
+     background-color: lightblue;
+}
+
+.topright{
+     width: 50%;
+     background-color: lightblue;
+    }
+
+.section1{
+   min-height: 50vh; 
+   overflow-y: hidden;
+   overflow-x: visible;
+   border-radius: 10px;
+   background-color: lightblue;
+}  
+
+.btn{
+    padding: 7px 12px;
+    border: 2px solid blue;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(29,88,214);
+}
+
+.logo{
+font-size: 1.3rem;
+padding: 12px;
+text-align: center;
+}
+
+.section2{
+    padding: 70px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.section2 h1{
+    font-size: 3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(40, 14, 237);
+    border-radius: 7px;
+    text-align: center;
+    background-color: lightpink;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+
+
+.planttable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 40;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+   width: 23vw; 
+   border-bottom: 2px solid black;
+   padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+    
+}
+
+.section3 table tr{
+    
+}
+
+
+.section3 h1{
+    font-size: 2.2rem;
+   
+}
+
+.section3{
+    padding: 70px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightgreen;
+
+}
